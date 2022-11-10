@@ -1,0 +1,95 @@
+.event-adder{
+    height: 1000px;
+    background-image: url("../Images/rave.webp");
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    margin: 0;
+}
+
+#event-adder-btn{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Bangers;
+    font-size: 30px;
+    color: #ffffff;
+    border: white solid 1px;
+    background: none;
+    position: relative;
+    bottom: 20%;
+}
+
+#event-adder-btn:hover{
+    color: #ffdd00;
+    border: solid 1px #ffdd00;
+}
+
+.seen{
+    height: 80%;
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    transition: 1s ease;background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,0.14889705882352944) 100%);
+    -webkit-box-shadow: 4px 6px 15px -4px #000000;
+    box-shadow: 4px 6px 15px -4px #000000;
+}
+
+.unseen{
+    visibility: hidden;
+    transition: 1s opacity ease;
+    opacity: 1;
+}
+
+.options{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.add-event-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+
+.add-event-form > p {
+    color: #000;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.add-event-input{
+    margin-left: 30px;
+}
+
+#submit-btn{
+    background: white;;
+    border: none;
+    width: 300px;
+    height: 50px;
+    bottom: 100px;
+    position: absolute;
+}
+
+#submit-btn:hover{
+    background: magenta;
+}

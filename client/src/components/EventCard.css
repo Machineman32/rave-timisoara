@@ -1,0 +1,17 @@
+.event-card {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+.event-card #btn {
+  position: relative;
+  bottom: 100px;
+  width: 200px;
+}
+
+#event-img {
+  width: 500px;
+}
+
+/*# sourceMappingURL=EventCard.css.map */
